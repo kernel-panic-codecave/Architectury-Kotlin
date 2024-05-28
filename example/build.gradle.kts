@@ -1,8 +1,16 @@
 plugins {
-    java
-    id("com.ncorti.kotlin.gradle.template.plugin")
+	kotlin("jvm")
+	id("com.withertech.architectury.kotlin.plugin")
 }
 
-templateExampleConfig {
-    message.set("Just trying this gradle plugin...")
+task("verify") {
+	assert(
+		kotlin.compilerOptions.freeCompilerArgs.get().containsAll(
+			buildList {
+				add("-Xmulti-platform")
+				add("-Xexpect-actual-linker")
+				add("-Xexpect-actual-classes")
+			}
+		)
+	)
 }

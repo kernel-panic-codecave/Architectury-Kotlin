@@ -1,6 +1,6 @@
 # Architectury Kotlin
 
-[![Pre Merge Checks](https://github.com/kernel-panic-codecave/Architectury-Kotlin/workflows/Pre%20Merge%20Checks/badge.svg)](https://github.com/kernel-panic-codecave/Architectury-Kotlin/workflows/pre-merge.yaml)  [![License](https://img.shields.io/github/license/kernel-panic-codecave/Architectury-Kotlin.svg)](LICENSE) ![Language](https://img.shields.io/github/languages/top/kernel-panic-codecave/Architectury-Kotlin?color=blue&logo=kotlin)
+[![Pre Merge Checks](https://github.com/kernel-panic-codecave/Architectury-Kotlin/workflows/Pre%20Merge%20Checks/badge.svg)](https://github.com/kernel-panic-codecave/Architectury-Kotlin/actions/workflows/pre-merge.yaml)  [![License](https://img.shields.io/github/license/kernel-panic-codecave/Architectury-Kotlin.svg)](LICENSE) ![Language](https://img.shields.io/github/languages/top/kernel-panic-codecave/Architectury-Kotlin?color=blue&logo=kotlin)
 
 A simple gradle plugin that enables the use of Kotlin Multiplatform's expect/actual declarations in Architectury projects, instead of using Architectury Transformer and the @ExpectPlatform annotation. 
 
